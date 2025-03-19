@@ -8,6 +8,6 @@ go mod tidy
 
 go run main.go # 运行
 
-go build -o ./build/demo.exe # 生成可执行文件 (windows加exe扩展名, linux不加)
-go build -o ./build/demo     # 生成可执行文件 (windows加exe扩展名, linux不加)
+go build -o ./bin/demo.exe # 生成可执行文件 (windows加exe扩展名, linux不加)
+go build -o ./bin/demo     # 生成可执行文件 (windows加exe扩展名, linux不加)
 ```
